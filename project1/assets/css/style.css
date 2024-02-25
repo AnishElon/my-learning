@@ -1,0 +1,51 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.service {
+    width: 25%;
+    padding: 20px;
+    border: 20px solid black;
+    margin:10px;
+}
+
+h3 {
+    font-size: 26px;
+    line-height: 30px;
+    color: #383838;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+i {
+    font-size: 50px !important;
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+    .service {
+        width: 90%;
+        padding: 20px;
+    }
+
+    i {
+        font-size: 30px !important;
+    }
+}
